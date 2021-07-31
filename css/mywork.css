@@ -80,3 +80,13 @@ p {
     margin-left: 15px;
     margin-right: 20px;
 }
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 33px;
+}
+.siteLogo {
+    height: 110px;
+    width: 110px;
+}
