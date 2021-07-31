@@ -25,6 +25,7 @@ img {
     margin-right: 500px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    line-height: 1.5;
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -52,6 +53,7 @@ h4 {
     padding-left: 300px;
     padding-right: 300px;
     font-size: 18px;
+    line-height: 1.5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .row {
@@ -60,17 +62,19 @@ h4 {
 }
 .column {
     flex: 33.33%;
+    justify-content: right;
 }
 .image2 {
-    width: 35%;
+    width: 30%;
     padding-left: 200px;
 }
 .image3 {
-    width: 35%;
-    padding-right: 5px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .image4 {
-    width: 35%;
+    width: 30%;
     margin-right: 290px;
 }
 a {
@@ -87,4 +91,16 @@ a {
 .image5 {
     width: 3%;
     padding-top: 15px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container img {
+    margin: 0;
+}
+.siteLogo {
+    height: 110px;
+    width: 110px;
 }

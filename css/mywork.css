@@ -1,0 +1,82 @@
+nav {
+    text-align: right;
+    margin-top: 33px;
+}
+ul li {
+    display: inline-block;
+    padding: 0px 30px;
+    text-align: right;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h1 {
+    padding-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.travelspot {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    height: 325px;
+    width: 800px;
+    margin: auto;
+    padding: 12px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 5px grey;
+}
+.travelspot img{
+    padding-left: 20px;
+}
+.doi {
+    display: flex;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    margin: 0 auto;
+    height: 325px;
+    width: 800px;
+    padding: 12px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 5px grey;
+}
+.doi img {
+    padding-top: 45px;
+}
+.MRD {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    margin: 0 auto;
+    height: 325px;
+    width: 800px;
+    padding: 12px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 5px grey;
+}
+.MRD img {
+    padding-top: 45px;
+}
+h4 {
+    padding: 20px;
+    font-size: 25px;
+    padding-top: 5px;
+}
+h2 {
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+h3 {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight:lighter;
+    color: #778899;
+}
+p {
+    margin-top: 45px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
