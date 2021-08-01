@@ -23,6 +23,8 @@ h1 {
     padding: 12px;
     margin-bottom: 50px;
     box-shadow: 10px 10px 5px grey;
+    grid-area: travelspot;
+    flex: 100%;
 }
 .travelspot img{
     padding-left: 20px;
@@ -38,6 +40,8 @@ h1 {
     padding: 12px;
     margin-bottom: 50px;
     box-shadow: 10px 10px 5px grey;
+    grid-area: doi;
+    flex: 100%;
 }
 .doi img {
     padding-top: 45px;
@@ -52,6 +56,8 @@ h1 {
     padding: 12px;
     margin-bottom: 50px;
     box-shadow: 10px 10px 5px grey;
+    grid-area: MRD;
+    flex: 100%;
 }
 .MRD img {
     padding-top: 45px;
@@ -90,3 +96,25 @@ p {
     height: 110px;
     width: 110px;
 }
+#flexContainer {
+    display: grid;
+    margin: 0px 5%;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "travelspot travelspot travelspot"
+    "doi doi doi"
+    "MRD MRD MRD"
+    ;
+}
+@media only screen and (max-width: 600px){
+    #flexContainer {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "travelspot"
+        "doi"
+        "MRD"
+        ;}
+    }
+   
