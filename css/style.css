@@ -19,7 +19,7 @@ img {
 .aboutMe {
     display: flex;
     align-content: center;
-    margin-left: 500px;
+    margin-left: 300px;
     margin-top: 250px;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -47,7 +47,7 @@ a {
 }
 .btn01 {
    position: absolute;
-   left: 800px;
+   left: 550px;
     height: 30px;
     width: 110px;
     border-radius: 3px;
@@ -63,7 +63,7 @@ button {
     padding-left: 10px;
     padding-right:10px;
     line-height: 22px;
-    transition: all 200ms ease-in-out; 
+    transition: all 12000ms ease-in-out; 
     align-content: center;
 }
 button:hover {
