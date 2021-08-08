@@ -9,7 +9,7 @@ ul li {
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 h1 {
-    padding-left: 200px;
+    padding-left: 465px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
 }
@@ -17,6 +17,7 @@ h1 {
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 2px solid black;
+    background: linear-gradient(150deg, #fcf4a3, #ffffff);
     height: 325px;
     width: 800px;
     margin: auto;
@@ -24,10 +25,23 @@ h1 {
     margin-bottom: 50px;
     box-shadow: 10px 10px 5px grey;
     grid-area: travelspot;
-    flex: 100%;
 }
 .travelspot img{
     padding-left: 20px;
+}
+button {
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 30px;
+    width: 175px;
+    border-radius: 15px;
+    margin-top: 275px;
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 2px 2px 1px grey;
 }
 .doi {
     display: flex;
@@ -35,13 +49,13 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 2px solid black;
     margin: 0 auto;
+    background: linear-gradient(150deg, #39471b, #f2f2f2);
     height: 325px;
     width: 800px;
     padding: 12px;
     margin-bottom: 50px;
     box-shadow: 10px 10px 5px grey;
     grid-area: doi;
-    flex: 100%;
 }
 .doi img {
     padding-top: 45px;
@@ -51,13 +65,13 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 2px solid black;
     margin: 0 auto;
+    background: linear-gradient(150deg, #0066ff, #ffffff);
     height: 325px;
-    width: 800px;
+    max-width: 800px;
     padding: 12px;
     margin-bottom: 50px;
     box-shadow: 10px 10px 5px grey;
     grid-area: MRD;
-    flex: 100%;
 }
 .MRD img {
     padding-top: 45px;
@@ -78,7 +92,6 @@ h3 {
     margin-left: 15px;
     font-size: 15px;
     font-weight:lighter;
-    color: #778899;
 }
 p {
     margin-top: 45px;
@@ -96,25 +109,36 @@ p {
     height: 110px;
     width: 110px;
 }
+a {
+    text-decoration: none;
+}
+a:link {
+    color: black;}
+a:visited {
+    color: black;}
+a:hover {
+    font-size: 130%;
+    background: -webkit-linear-gradient(#99fadc, #3c1361);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 #flexContainer {
     display: grid;
     margin: 0px 5%;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-areas: 
-    "travelspot travelspot travelspot"
-    "doi doi doi"
-    "MRD MRD MRD"
+    "travelspot"
+    "doi"
+    "MRD"
     ;
 }
 @media only screen and (max-width: 600px){
-    #flexContainer {
+    .travelspot, .doi, .MRD {
+        width: 90%;
+        height: 90%;
         flex-direction: column;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        "travelspot"
-        "doi"
-        "MRD"
-        ;}
+        align-items: center;
     }
-   
+}

@@ -9,7 +9,7 @@ ul li {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 h1 {
-    padding-left: 200px;
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
 }
@@ -20,7 +20,7 @@ img {
     width: 12%;
 }
 .intro {
-    text-align: center;
+    text-align: left;
     margin-left: 500px;
     margin-right: 500px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -104,4 +104,18 @@ a {
 .siteLogo {
     height: 110px;
     width: 110px;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: black;}
+a:visited {
+    color: black;}
+a:hover {
+    font-size: 130%;
+    background: -webkit-linear-gradient(#99fadc, #3c1361);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
