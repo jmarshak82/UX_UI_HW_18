@@ -21,23 +21,23 @@ img {
     align-content: center;
     margin-left: 300px;
     margin-top: 250px;
-    text-align: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Cormorant Garamond', serif;
     width: 750px;
   }
   div h1 {
-      font-size: 35px;
+      font-size: 50px;
       color: #ffffff;
      
   }
   h2 {
-      font-size: 20px;
+      font-size: 25px;
       color: #ffffff;
-     
+      font-family: 'Cormorant Garamond', serif;
   }
 div p {
     font-size: 20px;
     color: #ffffff;
+    font-family: 'Cormorant Garamond', serif;
 }
 .title {
     width: 100%;
@@ -55,7 +55,7 @@ a {
 button {
     color: #000000;
     font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Cormorant Garamond', serif;
     border: 1px solid #000000;
     border-radius: 1px;
     margin: 0px;
@@ -68,7 +68,7 @@ button {
 }
 button:hover {
     background-color: #C0C0C0;
-    background-image: linear-gradient(to right, #C0C0C0, #ffffff);
+    background-image: linear-gradient(to left, #000000, #ffffff);
     opacity: 0.9;
 }
 nav.side-slide {
@@ -100,11 +100,11 @@ nav.side-slide {
       line-height: 60px;}
 
     nav.side-slide a {
-      font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Cormorant Garamond', serif;
       color: #EDEDED;
       text-align: center;
       font-weight: bold;
-      font-size: 14px;
+      font-size: 18px;
     }
 
     nav.side-slide a:hover {
