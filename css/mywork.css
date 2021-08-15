@@ -6,16 +6,17 @@ ul li {
     display: inline-block;
     padding: 0px 30px;
     text-align: right;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Cormorant Garamond', serif;
+    font-size: 22px;
 }
 h1 {
     padding-left: 465px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
 }
 .travelspot {
     display: flex;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Cormorant Garamond', serif;
     border: 2px solid black;
     background: linear-gradient(150deg, #fcf4a3, #ffffff);
     height: 325px;
@@ -46,7 +47,7 @@ button {
 .doi {
     display: flex;
     align-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Cormorant Garamond', serif;
     border: 2px solid black;
     margin: 0 auto;
     background: linear-gradient(150deg, #39471b, #f2f2f2);
@@ -57,12 +58,18 @@ button {
     box-shadow: 10px 10px 5px grey;
     grid-area: doi;
 }
+.doi a{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 150px;
+}
 .doi img {
     padding-top: 45px;
 }
 .MRD {
     display: flex;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Cormorant Garamond', serif;
     border: 2px solid black;
     margin: 0 auto;
     background: linear-gradient(150deg, #0066ff, #ffffff);
@@ -118,10 +125,7 @@ a:visited {
     color: black;}
 a:hover {
     font-size: 130%;
-    background: -webkit-linear-gradient(#99fadc, #3c1361);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+ color: #000000;
 }
 #flexContainer {
     display: grid;
